@@ -42,6 +42,25 @@ python server.py
 
 Then open <http://localhost:8000> in your browser. Run `python server.py --check` to verify the backend without starting the server.
 
+## Testing
+
+Each project ships a small `test_*.py` suite using the built-in `unittest`
+module. Run a project's tests from inside its folder:
+
+```bash
+cd <project_name>
+python -m unittest -v
+```
+
+Or run every suite in one pass with `python -m unittest discover -s <project_name>`.
+
+## Community
+
+- [Contributing](CONTRIBUTING.md) — how to contribute
+- [Code of Conduct](CODE_OF_CONDUCT.md) — expected behavior
+- [Security](SECURITY.md) — reporting vulnerabilities
+- [License](LICENSE) — MIT
+
 ## Notes
 
 - These projects are educational demos that exercise software design patterns (data models, validations, state machines, service layers, and API-shaped output) — they are not production deployments.
