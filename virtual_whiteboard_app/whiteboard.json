@@ -1,0 +1,13 @@
+{
+  "title": "t",
+  "shapes": [
+    {
+      "id": 1,
+      "kind": "note",
+      "x": 1,
+      "y": 1,
+      "text": "",
+      "color": "black"
+    }
+  ]
+}
